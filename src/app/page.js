@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import OurVehicles from '@/components/OurVehicles'
+import WelcomeAndSponsors from '@/components/WelcomeAndSponsors'
 import WhyChooseUsSection from '@/components/WhyChooseUsSection'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <OurVehicles />
       <WhyChooseUsSection />
+      <WelcomeAndSponsors/>
       <Footer />
     </main>
   )
