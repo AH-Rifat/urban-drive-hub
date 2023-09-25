@@ -13,7 +13,7 @@ const Navber = () => {
         <ul><li className='font-bold text-white rounded-lg hover:bg-purple-400 hover:rounded-lg hover:duration-700 hover:p-2 p-2'><Link className='hover:p-2 p-2' href="http://">BLOG</Link></li></ul>
         <ul><li className='font-bold text-white rounded-lg hover:bg-purple-400 hover:rounded-lg hover:duration-700 hover:p-2 p-2'><Link className='hover:p-2 p-2' href="http://">CONTACT US</Link></li></ul>
       </div>
-      <Link href='pages/login' className='bg-purple-400 px-6 py-2 rounded-lg hover:bg-purple-500 hover:duration-700 text-white font-bold'>Login</Link>
+      <Link href="/pages/login" className='bg-purple-400 px-6 py-2 rounded-lg hover:bg-purple-500 hover:duration-700 text-white font-bold'>Login</Link>
     </div>
   )
 }
